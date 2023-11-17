@@ -15,7 +15,7 @@ function _keys(obj)
     if (Object.keys) return Object.keys(obj);
     var keys = [];
     for (var key in obj) if (_.has(obj, key)) keys.push(key);
-    return keys;
+    return keys.obj;
   }
 function isObject(obj) 
 {
